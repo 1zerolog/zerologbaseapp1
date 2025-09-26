@@ -33,3 +33,14 @@ export const minikitConfig = {
     ogImageUrl: `${ROOT_URL}/blue-hero.png`,
   },
 } as const;
+export const minikitConfig = {
+  accountAssociation: { 
+    // ... dolu header, payload, signature değerleri burada
+  },
+  miniapp: {
+    // ... diğer miniapp ayarları burada
+  },
+  baseBuilder: {
+    "allowedAddresses": ["0xe1bf2Dd72A8A026bEb20d8bF75276DF260507eFc"] 
+  }
+} as const;
